@@ -1,0 +1,2 @@
+plumbing_pub_sub:plumbing_server_client
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/zzy/demo_03/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/zzy/demo_03/install_isolated
