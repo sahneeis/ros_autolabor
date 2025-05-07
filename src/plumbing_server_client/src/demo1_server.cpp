@@ -17,10 +17,10 @@
 #include "plumbing_server_client/AddInts.h"
 
 // bool 返回值由于标志是否处理成功
-bool doReq(plumbing_server_client::AddInts::Request& req,
-    plumbing_server_client::AddInts::Response& resp){
-    int num1 = req.num1;
-    int num2 = req.num2;
+bool doReq(plumbing_server_client::AddInts::Request& request,
+    plumbing_server_client::AddInts::Response& response){
+    int num1 = request.num1;
+    int num2 = request.num2;
 
     ROS_INFO("服务器接收到的请求数据为:num1 = %d, num2 = %d",num1, num2);
 
@@ -32,7 +32,9 @@ bool doReq(plumbing_server_client::AddInts::Request& req,
     }
 
     //如果没有异常，那么相加并将结果赋值给 resp
-    resp.sum = num1 + num2;
+    int sum = num1 + num2;
+    response.sum = sum;
+    ROS_INFO("求和结果：sum=%d",sum);
     return true;
 
 
@@ -42,7 +44,7 @@ int main(int argc, char *argv[])
 {
     setlocale(LC_ALL,"");
     // 2.初始化 ROS 节点
-    ros::init(argc,argv,"AddInts_Server");
+    ros::init(argc,argv,"AddInts_Server");//节点名唯一
     // 3.创建 ROS 句柄
     ros::NodeHandle nh;
     // 4.创建 服务 对象

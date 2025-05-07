@@ -1,6 +1,8 @@
 /home/zzy/demo_03/build_isolated/plumbing_server_client/CMakeFiles/install/strip.dir
 /home/zzy/demo_03/build_isolated/plumbing_server_client/CMakeFiles/install.dir
 /home/zzy/demo_03/build_isolated/plumbing_server_client/CMakeFiles/edit_cache.dir
+/home/zzy/demo_03/build_isolated/plumbing_server_client/CMakeFiles/demo2_client.dir
+/home/zzy/demo_03/build_isolated/plumbing_server_client/CMakeFiles/demo1_server.dir
 /home/zzy/demo_03/build_isolated/plumbing_server_client/CMakeFiles/plumbing_server_client_genpy.dir
 /home/zzy/demo_03/build_isolated/plumbing_server_client/CMakeFiles/plumbing_server_client_gennodejs.dir
 /home/zzy/demo_03/build_isolated/plumbing_server_client/CMakeFiles/install/local.dir

@@ -168,6 +168,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named demo2_client
+
+# Build rule for target.
+demo2_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo2_client
+.PHONY : demo2_client
+
+# fast build rule for target.
+demo2_client/fast:
+	$(MAKE) -f CMakeFiles/demo2_client.dir/build.make CMakeFiles/demo2_client.dir/build
+.PHONY : demo2_client/fast
+
+#=============================================================================
+# Target rules for targets named demo1_server
+
+# Build rule for target.
+demo1_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo1_server
+.PHONY : demo1_server
+
+# fast build rule for target.
+demo1_server/fast:
+	$(MAKE) -f CMakeFiles/demo1_server.dir/build.make CMakeFiles/demo1_server.dir/build
+.PHONY : demo1_server/fast
+
+#=============================================================================
 # Target rules for targets named plumbing_server_client_genpy
 
 # Build rule for target.
@@ -635,6 +661,60 @@ gtest/fast:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+src/demo1_server.o: src/demo1_server.cpp.o
+
+.PHONY : src/demo1_server.o
+
+# target to build an object file
+src/demo1_server.cpp.o:
+	$(MAKE) -f CMakeFiles/demo1_server.dir/build.make CMakeFiles/demo1_server.dir/src/demo1_server.cpp.o
+.PHONY : src/demo1_server.cpp.o
+
+src/demo1_server.i: src/demo1_server.cpp.i
+
+.PHONY : src/demo1_server.i
+
+# target to preprocess a source file
+src/demo1_server.cpp.i:
+	$(MAKE) -f CMakeFiles/demo1_server.dir/build.make CMakeFiles/demo1_server.dir/src/demo1_server.cpp.i
+.PHONY : src/demo1_server.cpp.i
+
+src/demo1_server.s: src/demo1_server.cpp.s
+
+.PHONY : src/demo1_server.s
+
+# target to generate assembly for a file
+src/demo1_server.cpp.s:
+	$(MAKE) -f CMakeFiles/demo1_server.dir/build.make CMakeFiles/demo1_server.dir/src/demo1_server.cpp.s
+.PHONY : src/demo1_server.cpp.s
+
+src/demo2_client.o: src/demo2_client.cpp.o
+
+.PHONY : src/demo2_client.o
+
+# target to build an object file
+src/demo2_client.cpp.o:
+	$(MAKE) -f CMakeFiles/demo2_client.dir/build.make CMakeFiles/demo2_client.dir/src/demo2_client.cpp.o
+.PHONY : src/demo2_client.cpp.o
+
+src/demo2_client.i: src/demo2_client.cpp.i
+
+.PHONY : src/demo2_client.i
+
+# target to preprocess a source file
+src/demo2_client.cpp.i:
+	$(MAKE) -f CMakeFiles/demo2_client.dir/build.make CMakeFiles/demo2_client.dir/src/demo2_client.cpp.i
+.PHONY : src/demo2_client.cpp.i
+
+src/demo2_client.s: src/demo2_client.cpp.s
+
+.PHONY : src/demo2_client.s
+
+# target to generate assembly for a file
+src/demo2_client.cpp.s:
+	$(MAKE) -f CMakeFiles/demo2_client.dir/build.make CMakeFiles/demo2_client.dir/src/demo2_client.cpp.s
+.PHONY : src/demo2_client.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -644,6 +724,8 @@ help:
 	@echo "... install/strip"
 	@echo "... install"
 	@echo "... edit_cache"
+	@echo "... demo2_client"
+	@echo "... demo1_server"
 	@echo "... plumbing_server_client_genpy"
 	@echo "... plumbing_server_client_gennodejs"
 	@echo "... install/local"
@@ -684,6 +766,12 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... src/demo1_server.o"
+	@echo "... src/demo1_server.i"
+	@echo "... src/demo1_server.s"
+	@echo "... src/demo2_client.o"
+	@echo "... src/demo2_client.i"
+	@echo "... src/demo2_client.s"
 .PHONY : help
 
 
