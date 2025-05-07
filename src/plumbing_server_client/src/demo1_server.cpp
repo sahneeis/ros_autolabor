@@ -14,11 +14,11 @@
 
 */
 #include "ros/ros.h"
-#include "demo03_server_client/AddInts.h"
+#include "plumbing_server_client/AddInts.h"
 
 // bool 返回值由于标志是否处理成功
-bool doReq(demo03_server_client::AddInts::Request& req,
-          demo03_server_client::AddInts::Response& resp){
+bool doReq(plumbing_server_client::AddInts::Request& req,
+    plumbing_server_client::AddInts::Response& resp){
     int num1 = req.num1;
     int num2 = req.num2;
 
