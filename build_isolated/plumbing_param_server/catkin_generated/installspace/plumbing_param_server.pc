@@ -1,0 +1,8 @@
+prefix=/home/zzy/demo_03/install_isolated
+
+Name: plumbing_param_server
+Description: Description of plumbing_param_server
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -3,6 +3,6 @@ prefix=/home/zzy/demo_03/devel
 Name: plumbing_pub_sub
 Description: Description of plumbing_pub_sub
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/zzy/demo_03/devel/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: roscpp rospy std_msgs message_runtime

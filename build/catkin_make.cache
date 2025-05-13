@@ -1,2 +1,2 @@
-plumbing_pub_sub
+plumbing_param_server:plumbing_pub_sub:plumbing_server_client
 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/zzy/demo_03/devel -DCMAKE_INSTALL_PREFIX=/home/zzy/demo_03/install -G Unix Makefiles
