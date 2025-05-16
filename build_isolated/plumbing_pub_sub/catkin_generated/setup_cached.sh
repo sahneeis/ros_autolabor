@@ -7,4 +7,3 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/zzy/demo_03/build_isolated/plumbing_pub_sub'

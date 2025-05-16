@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/zzy/demo_03/devel_isolated/plumbing_server_client;/home/zzy/demo_03/devel_isolated/plumbing_pub_sub;/home/zzy/demo_03/devel;/home/zzy/ros_ws/devel;/opt/ros/noetic'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/zzy/demo_03/devel_isolated/plumbing_test_turtle;/home/zzy/demo_03/devel_isolated/plumbing_param_server;/home/zzy/demo_03/devel_isolated/plumbing_server_client;/home/zzy/demo_03/devel_isolated/plumbing_pub_sub;/home/zzy/demo_03/devel;/home/zzy/ros_ws/devel;/opt/ros/noetic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

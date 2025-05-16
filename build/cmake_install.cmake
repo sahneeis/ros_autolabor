@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -149,6 +149,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/zzy/demo_03/build/plumbing_param_server/cmake_install.cmake")
   include("/home/zzy/demo_03/build/plumbing_pub_sub/cmake_install.cmake")
   include("/home/zzy/demo_03/build/plumbing_server_client/cmake_install.cmake")
+  include("/home/zzy/demo_03/build/plumbing_test_turtle/cmake_install.cmake")
 
 endif()
 

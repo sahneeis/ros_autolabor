@@ -1,0 +1,8 @@
+prefix=/home/zzy/demo_03/devel
+
+Name: plumbing_test_turtle
+Description: Description of plumbing_test_turtle
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
