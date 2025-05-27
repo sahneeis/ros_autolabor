@@ -498,6 +498,12 @@ plumbing_head_src_BINARY_DIR:STATIC=/home/zzy/demo_03/build/plumbing_head_src
 plumbing_head_src_SOURCE_DIR:STATIC=/home/zzy/demo_03/src/plumbing_head_src
 
 //Value Computed by CMake
+plumbing_my_BINARY_DIR:STATIC=/home/zzy/demo_03/build/plumbing_my
+
+//Value Computed by CMake
+plumbing_my_SOURCE_DIR:STATIC=/home/zzy/demo_03/src/plumbing_my
+
+//Value Computed by CMake
 plumbing_param_server_BINARY_DIR:STATIC=/home/zzy/demo_03/build/plumbing_param_server
 
 //Value Computed by CMake
@@ -702,7 +708,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

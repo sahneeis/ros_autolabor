@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/zzy/demo_03/build
 
 # The main recursive "all" target.
 all: gtest/all
+all: plumbing_my/all
 all: plumbing_apis/all
 all: plumbing_head/all
 all: plumbing_head_src/all
@@ -66,6 +67,7 @@ all: plumbing_test_turtle/all
 
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
+preinstall: plumbing_my/preinstall
 preinstall: plumbing_apis/preinstall
 preinstall: plumbing_head/preinstall
 preinstall: plumbing_head_src/preinstall
@@ -83,6 +85,7 @@ clean: CMakeFiles/clean_test_results.dir/clean
 clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
+clean: plumbing_my/clean
 clean: plumbing_apis/clean
 clean: plumbing_head/clean
 clean: plumbing_head_src/clean
@@ -222,6 +225,24 @@ plumbing_head_src/clean: plumbing_head_src/CMakeFiles/use_head.dir/clean
 plumbing_head_src/clean: plumbing_head_src/CMakeFiles/head_src.dir/clean
 
 .PHONY : plumbing_head_src/clean
+
+#=============================================================================
+# Directory level rules for directory plumbing_my
+
+# Recursive "all" directory target.
+plumbing_my/all:
+
+.PHONY : plumbing_my/all
+
+# Recursive "preinstall" directory target.
+plumbing_my/preinstall:
+
+.PHONY : plumbing_my/preinstall
+
+# Recursive "clean" directory target.
+plumbing_my/clean: plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+.PHONY : plumbing_my/clean
 
 #=============================================================================
 # Directory level rules for directory plumbing_param_server
@@ -597,6 +618,33 @@ gtest: gtest/googletest/CMakeFiles/gtest.dir/rule
 gtest/googletest/CMakeFiles/gtest.dir/clean:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/clean
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/clean
+
+#=============================================================================
+# Target rules for target plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir
+
+# All Build rule for target.
+plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) -f plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/build.make plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) -f plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/build.make plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zzy/demo_03/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
+.PHONY : plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/all
+
+# Build rule for subdir invocation for target.
+plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy/demo_03/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy/demo_03/build/CMakeFiles 0
+.PHONY : plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+# Convenience name for target.
+_catkin_empty_exported_target: plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+.PHONY : _catkin_empty_exported_target
+
+# clean rule for target.
+plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) -f plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/build.make plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 #=============================================================================
 # Target rules for target plumbing_apis/CMakeFiles/apis_time.dir

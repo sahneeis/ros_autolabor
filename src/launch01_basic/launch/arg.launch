@@ -1,0 +1,11 @@
+<launch>
+    <!--演示arg的使用，需要设置多个参数，这些参数使用的同一个值（xiaoche的长度）-->>
+    <!-- <param name="A" value="0.5">这样修改不方便 -->
+    <arg name="car_length" default="0.6"/>
+
+    <param name="A" value="$(arg car_length)"/>
+    <param name="B" value="$(arg car_length)"/>
+    <param name="C" value="$(arg car_length)"/>
+
+
+</launch>

@@ -35,6 +35,14 @@
 /home/zzy/demo_03/build/gtest/googletest/CMakeFiles/test.dir
 /home/zzy/demo_03/build/gtest/googletest/CMakeFiles/gtest_main.dir
 /home/zzy/demo_03/build/gtest/googletest/CMakeFiles/gtest.dir
+/home/zzy/demo_03/build/plumbing_my/CMakeFiles/install/strip.dir
+/home/zzy/demo_03/build/plumbing_my/CMakeFiles/install/local.dir
+/home/zzy/demo_03/build/plumbing_my/CMakeFiles/install.dir
+/home/zzy/demo_03/build/plumbing_my/CMakeFiles/list_install_components.dir
+/home/zzy/demo_03/build/plumbing_my/CMakeFiles/rebuild_cache.dir
+/home/zzy/demo_03/build/plumbing_my/CMakeFiles/edit_cache.dir
+/home/zzy/demo_03/build/plumbing_my/CMakeFiles/test.dir
+/home/zzy/demo_03/build/plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir
 /home/zzy/demo_03/build/plumbing_apis/CMakeFiles/install/local.dir
 /home/zzy/demo_03/build/plumbing_apis/CMakeFiles/rebuild_cache.dir
 /home/zzy/demo_03/build/plumbing_apis/CMakeFiles/edit_cache.dir
