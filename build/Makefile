@@ -987,6 +987,240 @@ plumbing_server_client_generate_messages_nodejs/fast:
 .PHONY : plumbing_server_client_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named topic_name
+
+# Build rule for target.
+topic_name: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 topic_name
+.PHONY : topic_name
+
+# fast build rule for target.
+topic_name/fast:
+	$(MAKE) -f rename02_topic/CMakeFiles/topic_name.dir/build.make rename02_topic/CMakeFiles/topic_name.dir/build
+.PHONY : topic_name/fast
+
+#=============================================================================
+# Target rules for targets named param_name
+
+# Build rule for target.
+param_name: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 param_name
+.PHONY : param_name
+
+# fast build rule for target.
+param_name/fast:
+	$(MAKE) -f rename03_param/CMakeFiles/param_name.dir/build.make rename03_param/CMakeFiles/param_name.dir/build
+.PHONY : param_name/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_py
+
+# Build rule for target.
+std_srvs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_py
+.PHONY : std_srvs_generate_messages_py
+
+# fast build rule for target.
+std_srvs_generate_messages_py/fast:
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/build
+.PHONY : std_srvs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named turtlesim_generate_messages_eus
+
+# Build rule for target.
+turtlesim_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 turtlesim_generate_messages_eus
+.PHONY : turtlesim_generate_messages_eus
+
+# fast build rule for target.
+turtlesim_generate_messages_eus/fast:
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/build
+.PHONY : turtlesim_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named turtlesim_generate_messages_lisp
+
+# Build rule for target.
+turtlesim_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 turtlesim_generate_messages_lisp
+.PHONY : turtlesim_generate_messages_lisp
+
+# fast build rule for target.
+turtlesim_generate_messages_lisp/fast:
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/build
+.PHONY : turtlesim_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_cpp
+
+# Build rule for target.
+geometry_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_nodejs
+
+# Build rule for target.
+geometry_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_nodejs
+.PHONY : geometry_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+geometry_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+.PHONY : geometry_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named turtlesim_generate_messages_nodejs
+
+# Build rule for target.
+turtlesim_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 turtlesim_generate_messages_nodejs
+.PHONY : turtlesim_generate_messages_nodejs
+
+# fast build rule for target.
+turtlesim_generate_messages_nodejs/fast:
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build
+.PHONY : turtlesim_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_nodejs
+
+# Build rule for target.
+std_srvs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_nodejs
+.PHONY : std_srvs_generate_messages_nodejs
+
+# fast build rule for target.
+std_srvs_generate_messages_nodejs/fast:
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+.PHONY : std_srvs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named turtlesim_generate_messages_py
+
+# Build rule for target.
+turtlesim_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 turtlesim_generate_messages_py
+.PHONY : turtlesim_generate_messages_py
+
+# fast build rule for target.
+turtlesim_generate_messages_py/fast:
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/build
+.PHONY : turtlesim_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named turtlesim_generate_messages_cpp
+
+# Build rule for target.
+turtlesim_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 turtlesim_generate_messages_cpp
+.PHONY : turtlesim_generate_messages_cpp
+
+# fast build rule for target.
+turtlesim_generate_messages_cpp/fast:
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/build
+.PHONY : turtlesim_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_eus
+
+# Build rule for target.
+geometry_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_eus
+.PHONY : geometry_msgs_generate_messages_eus
+
+# fast build rule for target.
+geometry_msgs_generate_messages_eus/fast:
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+.PHONY : geometry_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_lisp
+
+# Build rule for target.
+geometry_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_lisp
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+.PHONY : geometry_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_py
+
+# Build rule for target.
+geometry_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_py
+.PHONY : geometry_msgs_generate_messages_py
+
+# fast build rule for target.
+geometry_msgs_generate_messages_py/fast:
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+.PHONY : geometry_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_cpp
+
+# Build rule for target.
+std_srvs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_cpp
+.PHONY : std_srvs_generate_messages_cpp
+
+# fast build rule for target.
+std_srvs_generate_messages_cpp/fast:
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+.PHONY : std_srvs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_eus
+
+# Build rule for target.
+std_srvs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_eus
+.PHONY : std_srvs_generate_messages_eus
+
+# fast build rule for target.
+std_srvs_generate_messages_eus/fast:
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+.PHONY : std_srvs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_lisp
+
+# Build rule for target.
+std_srvs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_lisp
+.PHONY : std_srvs_generate_messages_lisp
+
+# fast build rule for target.
+std_srvs_generate_messages_lisp/fast:
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+.PHONY : std_srvs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named test04_turtle_param
+
+# Build rule for target.
+test04_turtle_param: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test04_turtle_param
+.PHONY : test04_turtle_param
+
+# fast build rule for target.
+test04_turtle_param/fast:
+	$(MAKE) -f plumbing_test_turtle/CMakeFiles/test04_turtle_param.dir/build.make plumbing_test_turtle/CMakeFiles/test04_turtle_param.dir/build
+.PHONY : test04_turtle_param/fast
+
+#=============================================================================
 # Target rules for targets named test03_service_client
 
 # Build rule for target.
@@ -1013,45 +1247,6 @@ test02_turtle_sub_pose/fast:
 .PHONY : test02_turtle_sub_pose/fast
 
 #=============================================================================
-# Target rules for targets named std_srvs_generate_messages_py
-
-# Build rule for target.
-std_srvs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_py
-.PHONY : std_srvs_generate_messages_py
-
-# fast build rule for target.
-std_srvs_generate_messages_py/fast:
-	$(MAKE) -f plumbing_test_turtle/CMakeFiles/std_srvs_generate_messages_py.dir/build.make plumbing_test_turtle/CMakeFiles/std_srvs_generate_messages_py.dir/build
-.PHONY : std_srvs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named turtlesim_generate_messages_cpp
-
-# Build rule for target.
-turtlesim_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 turtlesim_generate_messages_cpp
-.PHONY : turtlesim_generate_messages_cpp
-
-# fast build rule for target.
-turtlesim_generate_messages_cpp/fast:
-	$(MAKE) -f plumbing_test_turtle/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make plumbing_test_turtle/CMakeFiles/turtlesim_generate_messages_cpp.dir/build
-.PHONY : turtlesim_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_eus
-
-# Build rule for target.
-geometry_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_eus
-.PHONY : geometry_msgs_generate_messages_eus
-
-# fast build rule for target.
-geometry_msgs_generate_messages_eus/fast:
-	$(MAKE) -f plumbing_test_turtle/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make plumbing_test_turtle/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-.PHONY : geometry_msgs_generate_messages_eus/fast
-
-#=============================================================================
 # Target rules for targets named test01_turtle_pub_twist
 
 # Build rule for target.
@@ -1063,175 +1258,6 @@ test01_turtle_pub_twist: cmake_check_build_system
 test01_turtle_pub_twist/fast:
 	$(MAKE) -f plumbing_test_turtle/CMakeFiles/test01_turtle_pub_twist.dir/build.make plumbing_test_turtle/CMakeFiles/test01_turtle_pub_twist.dir/build
 .PHONY : test01_turtle_pub_twist/fast
-
-#=============================================================================
-# Target rules for targets named std_srvs_generate_messages_nodejs
-
-# Build rule for target.
-std_srvs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_nodejs
-.PHONY : std_srvs_generate_messages_nodejs
-
-# fast build rule for target.
-std_srvs_generate_messages_nodejs/fast:
-	$(MAKE) -f plumbing_test_turtle/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make plumbing_test_turtle/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
-.PHONY : std_srvs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named turtlesim_generate_messages_py
-
-# Build rule for target.
-turtlesim_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 turtlesim_generate_messages_py
-.PHONY : turtlesim_generate_messages_py
-
-# fast build rule for target.
-turtlesim_generate_messages_py/fast:
-	$(MAKE) -f plumbing_test_turtle/CMakeFiles/turtlesim_generate_messages_py.dir/build.make plumbing_test_turtle/CMakeFiles/turtlesim_generate_messages_py.dir/build
-.PHONY : turtlesim_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named test04_turtle_param
-
-# Build rule for target.
-test04_turtle_param: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test04_turtle_param
-.PHONY : test04_turtle_param
-
-# fast build rule for target.
-test04_turtle_param/fast:
-	$(MAKE) -f plumbing_test_turtle/CMakeFiles/test04_turtle_param.dir/build.make plumbing_test_turtle/CMakeFiles/test04_turtle_param.dir/build
-.PHONY : test04_turtle_param/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_lisp
-
-# Build rule for target.
-geometry_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_lisp
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f plumbing_test_turtle/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make plumbing_test_turtle/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_cpp
-
-# Build rule for target.
-geometry_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f plumbing_test_turtle/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make plumbing_test_turtle/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_nodejs
-
-# Build rule for target.
-geometry_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_nodejs
-.PHONY : geometry_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-geometry_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f plumbing_test_turtle/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make plumbing_test_turtle/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-.PHONY : geometry_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named turtlesim_generate_messages_lisp
-
-# Build rule for target.
-turtlesim_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 turtlesim_generate_messages_lisp
-.PHONY : turtlesim_generate_messages_lisp
-
-# fast build rule for target.
-turtlesim_generate_messages_lisp/fast:
-	$(MAKE) -f plumbing_test_turtle/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make plumbing_test_turtle/CMakeFiles/turtlesim_generate_messages_lisp.dir/build
-.PHONY : turtlesim_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named turtlesim_generate_messages_eus
-
-# Build rule for target.
-turtlesim_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 turtlesim_generate_messages_eus
-.PHONY : turtlesim_generate_messages_eus
-
-# fast build rule for target.
-turtlesim_generate_messages_eus/fast:
-	$(MAKE) -f plumbing_test_turtle/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make plumbing_test_turtle/CMakeFiles/turtlesim_generate_messages_eus.dir/build
-.PHONY : turtlesim_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named turtlesim_generate_messages_nodejs
-
-# Build rule for target.
-turtlesim_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 turtlesim_generate_messages_nodejs
-.PHONY : turtlesim_generate_messages_nodejs
-
-# fast build rule for target.
-turtlesim_generate_messages_nodejs/fast:
-	$(MAKE) -f plumbing_test_turtle/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make plumbing_test_turtle/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build
-.PHONY : turtlesim_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_py
-
-# Build rule for target.
-geometry_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_py
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	$(MAKE) -f plumbing_test_turtle/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make plumbing_test_turtle/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named std_srvs_generate_messages_cpp
-
-# Build rule for target.
-std_srvs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_cpp
-.PHONY : std_srvs_generate_messages_cpp
-
-# fast build rule for target.
-std_srvs_generate_messages_cpp/fast:
-	$(MAKE) -f plumbing_test_turtle/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make plumbing_test_turtle/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
-.PHONY : std_srvs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named std_srvs_generate_messages_eus
-
-# Build rule for target.
-std_srvs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_eus
-.PHONY : std_srvs_generate_messages_eus
-
-# fast build rule for target.
-std_srvs_generate_messages_eus/fast:
-	$(MAKE) -f plumbing_test_turtle/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make plumbing_test_turtle/CMakeFiles/std_srvs_generate_messages_eus.dir/build
-.PHONY : std_srvs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named std_srvs_generate_messages_lisp
-
-# Build rule for target.
-std_srvs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_lisp
-.PHONY : std_srvs_generate_messages_lisp
-
-# fast build rule for target.
-std_srvs_generate_messages_lisp/fast:
-	$(MAKE) -f plumbing_test_turtle/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make plumbing_test_turtle/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
-.PHONY : std_srvs_generate_messages_lisp/fast
 
 # Help Target
 help:
@@ -1309,25 +1335,27 @@ help:
 	@echo "... plumbing_server_client_generate_messages_py"
 	@echo "... plumbing_server_client_genlisp"
 	@echo "... plumbing_server_client_generate_messages_nodejs"
-	@echo "... test03_service_client"
-	@echo "... test02_turtle_sub_pose"
+	@echo "... topic_name"
+	@echo "... param_name"
 	@echo "... std_srvs_generate_messages_py"
-	@echo "... turtlesim_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... test01_turtle_pub_twist"
-	@echo "... std_srvs_generate_messages_nodejs"
-	@echo "... turtlesim_generate_messages_py"
-	@echo "... test04_turtle_param"
-	@echo "... geometry_msgs_generate_messages_lisp"
+	@echo "... turtlesim_generate_messages_eus"
+	@echo "... turtlesim_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_nodejs"
-	@echo "... turtlesim_generate_messages_lisp"
-	@echo "... turtlesim_generate_messages_eus"
 	@echo "... turtlesim_generate_messages_nodejs"
+	@echo "... std_srvs_generate_messages_nodejs"
+	@echo "... turtlesim_generate_messages_py"
+	@echo "... turtlesim_generate_messages_cpp"
+	@echo "... geometry_msgs_generate_messages_eus"
+	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_eus"
 	@echo "... std_srvs_generate_messages_lisp"
+	@echo "... test04_turtle_param"
+	@echo "... test03_service_client"
+	@echo "... test02_turtle_sub_pose"
+	@echo "... test01_turtle_pub_twist"
 .PHONY : help
 
 

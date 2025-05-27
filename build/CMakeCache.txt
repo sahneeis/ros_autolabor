@@ -470,6 +470,12 @@ gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 //Dependencies for the target
 head_src_LIB_DEPENDS:STATIC=general;/opt/ros/noetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;general;/opt/ros/noetic/lib/librosconsole.so;general;/opt/ros/noetic/lib/librosconsole_log4cxx.so;general;/opt/ros/noetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;general;/opt/ros/noetic/lib/libxmlrpcpp.so;general;/opt/ros/noetic/lib/libroscpp_serialization.so;general;/opt/ros/noetic/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;general;/opt/ros/noetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;
 
+//Value Computed by CMake
+launch01_basic_BINARY_DIR:STATIC=/home/zzy/demo_03/build/launch01_basic
+
+//Value Computed by CMake
+launch01_basic_SOURCE_DIR:STATIC=/home/zzy/demo_03/src/launch01_basic
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/noetic/lib/libxmlrpcpp.so
 
@@ -526,6 +532,24 @@ plumbing_test_turtle_BINARY_DIR:STATIC=/home/zzy/demo_03/build/plumbing_test_tur
 
 //Value Computed by CMake
 plumbing_test_turtle_SOURCE_DIR:STATIC=/home/zzy/demo_03/src/plumbing_test_turtle
+
+//Value Computed by CMake
+rename01_node_BINARY_DIR:STATIC=/home/zzy/demo_03/build/rename01_node
+
+//Value Computed by CMake
+rename01_node_SOURCE_DIR:STATIC=/home/zzy/demo_03/src/rename01_node
+
+//Value Computed by CMake
+rename02_topic_BINARY_DIR:STATIC=/home/zzy/demo_03/build/rename02_topic
+
+//Value Computed by CMake
+rename02_topic_SOURCE_DIR:STATIC=/home/zzy/demo_03/src/rename02_topic
+
+//Value Computed by CMake
+rename03_param_BINARY_DIR:STATIC=/home/zzy/demo_03/build/rename03_param
+
+//Value Computed by CMake
+rename03_param_SOURCE_DIR:STATIC=/home/zzy/demo_03/src/rename03_param
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake
@@ -708,7 +732,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=16
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

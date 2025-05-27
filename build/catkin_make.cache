@@ -1,2 +1,2 @@
-plumbing_apis:plumbing_head:plumbing_head_src:plumbing_my:plumbing_param_server:plumbing_pub_sub:plumbing_server_client:plumbing_test_turtle
+launch01_basic:plumbing_apis:plumbing_head:plumbing_head_src:plumbing_my:plumbing_param_server:plumbing_pub_sub:plumbing_server_client:plumbing_test_turtle:rename01_node:rename02_topic:rename03_param
 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/zzy/demo_03/devel -DCMAKE_INSTALL_PREFIX=/home/zzy/demo_03/install -G Unix Makefiles
